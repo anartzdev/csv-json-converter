@@ -101,7 +101,8 @@ export function csvToJSON(csv: string) {
 
   let jsonObject = {};
   for (var i = 1; i < lines.length; i++) {
-    var currentline = lines[i].split('|');
+    // Take key option and next all text.
+    var currentline = lines[i].split(',', 2);
     // console.log('209', currentline);
 
     // const keys = currentline[0].split('.');
@@ -126,9 +127,9 @@ const selectOutputExtension = (readFileExtension: 'csv' | 'json') => {
 const createCSV = (data: string) => {
   const convertData = extractAllJsonValues(JSON.parse(data));
   console.log(convertData);
-  let csv = `key| value`;
+  let csv = `key,value`;
   convertData.forEach((item: { key: string; value: string }) => {
-    csv = csv + `\n${item.key}|${item.value}`;
+    csv = csv + `\n${item.key},${item.value}`;
   });
 
   console.log(csv);

@@ -1,7 +1,7 @@
-key| value
-languages.spanish|Castellano
-languages.catala|Catalán
-languages.english|Inglés
-languages.portuguese|Portuguese
-programmingTechnologies.angular|Angular 15
-programmingTechnologies.qwik|qwik
+key,value
+languages.spanish,Castellano
+languages.catala,Catalán
+languages.english,Inglés
+languages.portuguese,Portuguese
+programmingTechnologies.angular,Angular 15
+programmingTechnologies.qwik,qwik
