@@ -5,46 +5,9 @@
       "english": "Inglés",
       "portuguese": "Portuguese"
     },
-    "menuOptions": {
-      "ceoSign": "Firma CEO",
-      "centerServicesSign": "Servicios Centrales",
-      "centerServicesSignPt": "Serviços Centrais",
-      "generalDirector": "Director General",
-      "generalDirectorPt": "Diretor geral",
-      "salesNetwork": "Red Ventas",
-      "salesNetworkPt": "Rede de Vendas",
-      "workers": "Trabajadores"
-    },
-    "menuDescriptions": {
-      "centerServicesSign": "Formulario de firma para Servicios Centrales de España",
-      "centerServicesSignPt": "Formulário de assinatura dos Serviços Centrais de Portugal",
-      "ceoSign": "Formulario de firma para correo. CEO.",
-      "ceoSignPt": "",
-      "generalDirector": "Formulario de firma para correo. Director General",
-      "generalDirectorPt": "",
-      "salesNetwork": "Formulario de firma para Red de Ventas de España",
-      "salesNetworkPt": "Formulário de assinatura da Rede de Vendas Portugal"
-    },
-    "titles": {
-      "centerServicesSign": "Generador de firmas. Servicios Centrales",
-      "centerServicesSignPt": "Gerador de assinatura de correio. Serviços Centrais.",
-      "ceoSign": "Generador de Firma para correo. CEO.",
-      "ceoSignPt": "",
-      "generalDirector": "Formulario de firma para correo. Director General",
-      "generalDirectorPt": "Formulario de firma para correo. Director General",
-      "marketing": "Generador de Firma para correo. DVD.",
-      "worldTour": "Generador de Firma para correo. Tourmundial.",
-      "balumaCruisesSign": "Generador de Firma para correo. Baluma Cruises.",
-      "franceDelegationSign": "Générateur de signature pour le courrier. Délégations France",
-      "italyDelegationSign": "Generatore di firme per la posta. Delegazioni italiane",
-      "principal": "Generador de Firma",
-      "salesNetwork": "Generador de Firma para correo. Red Ventas",
-      "salesNetworkPt": "Gerador de assinatura para correio. Rede de vendas",
-      "workers": "Generador de Firma para correo. Trabajadores",
-      "workersPt": ""
-    },
-    "resources": {
-      "btnAccess": "Acceder"
+    "programmingTechnologies": {
+      "angular": "Angular 15",
+      "qwik": "qwik"
     }
   }
   
