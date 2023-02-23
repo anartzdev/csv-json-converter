@@ -1,0 +1,38 @@
+key| value
+languages.spanish|Castellano
+languages.catala|Catalán
+languages.english|Inglés
+languages.portuguese|Portuguese
+menuOptions.ceoSign|Firma CEO
+menuOptions.centerServicesSign|Servicios Centrales
+menuOptions.centerServicesSignPt|Serviços Centrais
+menuOptions.generalDirector|Director General
+menuOptions.generalDirectorPt|Diretor geral
+menuOptions.salesNetwork|Red Ventas
+menuOptions.salesNetworkPt|Rede de Vendas
+menuOptions.workers|Trabajadores
+menuDescriptions.centerServicesSign|Formulario de firma para Servicios Centrales de España
+menuDescriptions.centerServicesSignPt|Formulário de assinatura dos Serviços Centrais de Portugal
+menuDescriptions.ceoSign|Formulario de firma para correo. CEO.
+menuDescriptions.ceoSignPt|
+menuDescriptions.generalDirector|Formulario de firma para correo. Director General
+menuDescriptions.generalDirectorPt|
+menuDescriptions.salesNetwork|Formulario de firma para Red de Ventas de España
+menuDescriptions.salesNetworkPt|Formulário de assinatura da Rede de Vendas Portugal
+titles.centerServicesSign|Generador de firmas. Servicios Centrales
+titles.centerServicesSignPt|Gerador de assinatura de correio. Serviços Centrais.
+titles.ceoSign|Generador de Firma para correo. CEO.
+titles.ceoSignPt|
+titles.generalDirector|Formulario de firma para correo. Director General
+titles.generalDirectorPt|Formulario de firma para correo. Director General
+titles.marketing|Generador de Firma para correo. DVD.
+titles.worldTour|Generador de Firma para correo. Tourmundial.
+titles.balumaCruisesSign|Generador de Firma para correo. Baluma Cruises.
+titles.franceDelegationSign|Générateur de signature pour le courrier. Délégations France
+titles.italyDelegationSign|Generatore di firme per la posta. Delegazioni italiane
+titles.principal|Generador de Firma
+titles.salesNetwork|Generador de Firma para correo. Red Ventas
+titles.salesNetworkPt|Gerador de assinatura para correio. Rede de vendas
+titles.workers|Generador de Firma para correo. Trabajadores
+titles.workersPt|
+resources.btnAccess|Acceder

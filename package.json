@@ -1,6 +1,6 @@
 {
-  "name": "ts-library-template",
-  "version": "0.1.0",
+  "name": "@mugan86/csv-json-converter",
+  "version": "0.1.8",
   "description": "Typescript Library template to start with ESLint and basic options create library proccess",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@types/inquirer": "^9.0.3",
     "@types/jest": "^29.0.3",
+    "@types/shelljs": "0.8.11",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "eslint": "^8.23.1",
@@ -36,6 +37,10 @@
     "typescript": "^4.8.3"
   },
   "dependencies": {
-    "inquirer": "8"
+    "inquirer": "8",
+    "shelljs": "0.8.5"
+  },
+  "bin": {
+    "csv-json-converter": "./dist/index.js"
   }
 }
