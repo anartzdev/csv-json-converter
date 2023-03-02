@@ -1,6 +1,6 @@
 {
   "name": "@mugan86/csv-json-converter",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Typescript Library template to start with ESLint and basic options create library proccess",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
