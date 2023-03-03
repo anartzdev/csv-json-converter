@@ -6,9 +6,8 @@ export const selectOutputExtension = (readFileExtension) => {
   return readFileExtension === 'csv' ? 'json' : 'csv';
 };
 
-export const getExtractFormatData = (outputFormat) => {
-  if (!['csv', 'json'].includes(outputFormat)) {
-    throw new Error('need pass correct extension please: csv or json');
-  }
-  return outputFormat === 'csv' ? 'json' : 'csv';
-};
+
+export const extensionsList =[
+  { value: 'json', label: 'JSON' },
+  { value: 'csv', label: 'CSV' },
+]

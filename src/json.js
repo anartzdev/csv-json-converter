@@ -1,4 +1,5 @@
 // JSON file (./json/index)
+import { ObjectProperties } from './object-props.js';
 // To use in convert JSON to CSV
 
 // Extract values of path in different levels
