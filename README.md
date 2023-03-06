@@ -47,13 +47,36 @@ Una vez instalado el CLI para realizar las conversiones de los ficheros CSV / JS
 
 ```csv-json-converter```
 
-Una vez ejecutado nos aparece algo similar a lo siguiente con opciones de un asistente (que puede ir cambiando):
+Una vez ejecutado nos aparece algo similar a lo siguiente con opciones de un asistente en el que vamos a convertir únicamente UN FICHERO:
 
 ```
-? ¿A qué formato quieres convertir? (Use arrow keys)
-❯ JSON 
-  CSV 
-? ¿Cuál es el nombre del fichero? <NOMBRE FICHERO> (Aquí podemos poner la ruta especificando el path desde donde estamos)
+ Asistente para la conversión JSON => CSV y viceversa (con un fichero)
+│
+◆  Selecciona el número de ficheros a convertir:
+│  ● 1 
+│  ○ Más de uno
+◆  ¿A qué formato quieres convertir el contenido?
+│  ● JSON 
+│  ○ CSV
+◆  Introduce la ruta relativa de la ubicación del fichero + nombre fichero:
+│  <directorio>/<directorio-hijo-n>/<nombre-fichero-sin-extension>
+|   (examples/basic/es => es será nombre del fichero)
+└
+```
+na vez ejecutado nos aparece algo similar a lo siguiente con opciones de un asistente en el que vamos a convertir MÁS DE UN FICHERO:
+
+```
+ Asistente para la conversión JSON => CSV y viceversa (con un fichero)
+│
+◆  Selecciona el número de ficheros a convertir:
+│  ○ 1 
+│  ● Más de uno
+◆  ¿A qué formato quieres convertir el contenido?
+│  ● JSON 
+│  ○ CSV
+◆  Introduce la ruta relativa de la ubicación del fichero + nombre fichero:
+│  <directorio>/<directorio-hijo-n>
+└
 ```
 
 

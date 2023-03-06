@@ -1,1 +1,12 @@
-{"languages":{"spanish":"Espanhol","catala":"Catalão","english":"Inglês","portuguese":"Português"},"programmingTechnologies":{"angular":"Angular 15","qwik":"qwik"}}
+{
+    "languages": {
+        "spanish": "Espanhol",
+        "catala": "Catalão",
+        "english": "Inglês",
+        "portuguese": "Português"
+    },
+    "programmingTechnologies": {
+        "angular": "Angular 15",
+        "qwik": "qwik"
+    }
+}

@@ -1,6 +1,9 @@
 import { csvToJSON } from './csv.js';
 import { extractAllJsonValues } from './json.js';
 import fs from 'fs';
+import { getOutputFilename } from './utils.js';
+
+
 const createCSV = (data, name) => {
   const convertData = extractAllJsonValues(JSON.parse(data));
   console.log(convertData);
@@ -24,13 +27,19 @@ const createFile = (data, extension, fileName) => {
 };
 
 const createFileResult = (outputExtension, rawdata, name) => {
-  console.log(outputExtension);
   if (!['csv', 'json'].includes(outputExtension)) {
     throw new Error('need pass correct extension please: csv or json');
   }
   const dataStr = String(rawdata);
   outputExtension === 'csv' ? createCSV(dataStr, name) : createJSON(dataStr, name);
+  console.log('CREATE FILE =====>', name.concat(`.${outputExtension}`));
 };
 
+const executeConversion = (outputFormat, fileReference) => {
+  const rawdata = fs.readFileSync( fileReference );
+  const outputLocation = getOutputFilename(fileReference);
+  createFileResult(outputFormat, rawdata, outputLocation);
+}
 
-export { createCSV, createFile, createFileResult, createJSON};
+
+export { createCSV, createFile, createFileResult, createJSON, executeConversion};
